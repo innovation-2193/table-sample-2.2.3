@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ใบเสนอราคา - Smart City Project</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Sarabun", sans-serif;
+        padding: 40px;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+      }
+
+      .quotation-box {
+        background-color: white;
+        padding: 40px;
+        width: 210mm; /* ขนาด A4 */
+        min-height: 297mm;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+      }
+
+      .header-text {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .project-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        font-size: 15px;
+      }
+
+      th {
+        background-color: #e9ecef;
+        border: 1px solid #000;
+        padding: 12px 8px;
+        text-align: center;
+      }
+
+      td {
+        border: 1px solid #000;
+        padding: 10px 8px;
+        vertical-align: middle;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+      .text-right {
+        text-align: right;
+      }
+      .font-bold {
+        font-weight: bold;
+      }
+
+      .footer-section {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .signature-area {
+        text-align: center;
+        margin-top: 50px;
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="quotation-box">
+      <div class="header-text">
+        <div style="font-size: 22px; font-weight: bold">
+          รายละเอียดใบเสนอราคา
+        </div>
+        <div class="project-title">
+          โครงการพัฒนาระบบบริหารจัดการเมืองอัจฉริยะ (Smart City Command Center:
+          SCCC)<br />
+        </div>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 8%">ลำดับ</th>
+            <th style="width: 45%">รายละเอียด</th>
+            <th style="width: 12%">จำนวน</th>
+            <th style="width: 15%">หน่วยละ (บาท)</th>
+            <th style="width: 20%">จำนวนเงิน (บาท)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-center">1</td>
+            <td>ซอฟต์แวร์บริหารจัดการศูนย์ควบคุมกลาง (SCCC Core Platform)</td>
+            <td class="text-center">1 ระบบ</td>
+            <td class="text-right">4,500,000</td>
+            <td class="text-right">4,500,000</td>
+          </tr>
+          <tr>
+            <td class="text-center">2</td>
+            <td>
+              ชุดเครื่องแม่ข่ายประมวลผลประสิทธิภาพสูง (High-Performance Server)
+            </td>
+            <td class="text-center">4 เครื่อง</td>
+            <td class="text-right">850,000</td>
+            <td class="text-right">3,400,000</td>
+          </tr>
+          <tr>
+            <td class="text-center">3</td>
+            <td>ระบบวิเคราะห์ภาพวิดีโออัจฉริยะ (AI Video Analytics Module)</td>
+            <td class="text-center">1 ระบบ</td>
+            <td class="text-right">1,200,000</td>
+            <td class="text-right">1,200,000</td>
+          </tr>
+          <tr>
+            <td class="text-center">4</td>
+            <td>จอแสดงภาพ Video Wall 55 นิ้ว (Thin Bezel Display)</td>
+            <td class="text-center">9 ชุด</td>
+            <td class="text-right">185,000</td>
+            <td class="text-right">1,665,000</td>
+          </tr>
+          <tr>
+            <td class="text-center">5</td>
+            <td>
+              เครื่องคอมพิวเตอร์ประจำสถานีงาน (Workstation) สำหรับเจ้าหน้าที่
+            </td>
+            <td class="text-center">6 เครื่อง</td>
+            <td class="text-right">65,000</td>
+            <td class="text-right">390,000</td>
+          </tr>
+          <tr>
+            <td class="text-center">6</td>
+            <td>อุปกรณ์กระจายสัญญาณ Network Core Switch และ Firewall</td>
+            <td class="text-center">2 ชุด</td>
+            <td class="text-right">450,000</td>
+            <td class="text-right">900,000</td>
+          </tr>
+          <tr>
+            <td class="text-center">7</td>
+            <td>ระบบสำรองไฟฟ้าต่อเนื่องขนาด 10 KVA (True Online UPS)</td>
+            <td class="text-center">2 เครื่อง</td>
+            <td class="text-right">280,000</td>
+            <td class="text-right">560,000</td>
+          </tr>
+          <tr>
+            <td class="text-center">8</td>
+            <td>อุปกรณ์เซนเซอร์ IoT ตรวจวัดคุณภาพอากาศและสิ่งแวดล้อม</td>
+            <td class="text-center">20 ชุด</td>
+            <td class="text-right">45,000</td>
+            <td class="text-right">900,000</td>
+          </tr>
+          <tr>
+            <td class="text-center">9</td>
+            <td>ลิขสิทธิ์ซอฟต์แวร์ระบบปฏิบัติการและฐานข้อมูล</td>
+            <td class="text-center">1 ชุด</td>
+            <td class="text-right">720,000</td>
+            <td class="text-right">720,000</td>
+          </tr>
+          <tr>
+            <td class="text-center">10</td>
+            <td>ค่าบริการติดตั้ง, ฝึกอบรม และรับประกันระบบ 3 ปี</td>
+            <td class="text-center">1 ชุด</td>
+            <td class="text-right">2,500,000</td>
+            <td class="text-right">2,500,000</td>
+          </tr>
+          <tr class="font-bold" style="background-color: #f8f9fa">
+            <td colspan="4" class="text-right">
+              รวมเงินทั้งสิ้น (รวมภาษีมูลค่าเพิ่ม 7%)
+            </td>
+            <td class="text-right">16,735,000</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="footer-section">
+        <div style="line-height: 2">
+          กำหนดส่งมอบงาน: 180 วัน<br />
+          กำหนดยืนราคา: 60 วัน
+        </div>
+        <div class="signature-area">
+          ลงชื่อ.........................................ผู้เสนอราคา<br /><br />
+          ( ......................................... )<br />
+          ตำแหน่ง กรรมการผู้จัดการ
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
